@@ -1,0 +1,14 @@
+controller_list:
+  - name: fake_ooafm_arm_controller
+    type: $(arg fake_execution_type)
+    joints:
+      - Rev30
+      - Rev31
+      - Rev32
+      - Slider33
+      - Rev34
+      - Rev35
+      - Rev36
+initial:  # Define initial robot poses per group
+  - group: ooafm_arm
+    pose: Home

@@ -1,0 +1,13 @@
+controller_list:
+  - name: arm_position_controller
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: True
+    joints:
+      - Rev30
+      - Rev31
+      - Rev32
+      - Slider33
+      - Rev34
+      - Rev35
+      - Rev36

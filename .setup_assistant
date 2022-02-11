@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: ooafm_description
+    relative_path: urdf/ooafm.urdf.xml
+    xacro_args: ""
+  SRDF:
+    relative_path: config/6axis_P1_07112020.srdf
+  CONFIG:
+    author_name: Julien Baumeyer
+    author_email: julien.baumeyer@gmail.com
+    generated_timestamp: 1644573963
