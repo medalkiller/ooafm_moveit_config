@@ -1,1 +1,8 @@
-TO launch the simulation demo : roslaunch ooafm_moveit_config demo.launch
+Moveit (ros1) package for OOAFM robot
+
+Need ooafm_description for meshes and urdf 
+
+# Launch 
+
+To launch the simulation demo : roslaunch ooafm_moveit_config demo.launch
+This demo come with joints slider GUI to move joints indepentently
